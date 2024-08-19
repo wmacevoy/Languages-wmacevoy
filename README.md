@@ -2,7 +2,7 @@
 
 ## Dev Laptop Setup
 
-* [Windows WSL](windows.md)
-* [Mac](macos.md)
+* [Windows WSL](docs/windows.md)
+* [Mac](docs/macos.md)
 
 

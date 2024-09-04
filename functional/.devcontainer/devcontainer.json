@@ -1,0 +1,17 @@
+{
+	"name": "Java and Scala Dev Container",
+	"build": {
+	  "dockerfile": "Dockerfile"
+	},
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+		  "scala-lang.scala",
+		  "vscjava.vscode-java-pack",
+		  "scalameta.metals"
+		]
+	  }
+	},
+	// "postCreateCommand": "git-crypt unlock && source .env && echo $GITHUB_PAT | docker login ghcr.io -u $GITHUB_USER --password-stdin"
+  }
+  

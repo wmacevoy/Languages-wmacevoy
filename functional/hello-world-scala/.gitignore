@@ -1,0 +1,45 @@
+# sbt and Scala build files
+/target/
+/project/target/
+/project/project/
+
+# sbt specific files
+lib_managed/
+src_managed/
+.DS_Store
+dist/
+*.class
+*.log
+
+# IDE specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+/out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.swp
+*~
+
+# Encrypted files using git-crypt
+# Add any files you want encrypted by git-crypt
+# For example:
+# secrets.env filter=

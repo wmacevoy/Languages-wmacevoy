@@ -12,6 +12,13 @@
 		]
 	  }
 	},
+	"forwardPorts": [8080],
+	"portsAttributes": {
+	  "8080": {
+		"label": "Scala App",
+		"onAutoForward": "openPreview"
+	  }
+	}
 	// "postCreateCommand": "git-crypt unlock && source .env && echo $GITHUB_PAT | docker login ghcr.io -u $GITHUB_USER --password-stdin"
-  }
+}
   

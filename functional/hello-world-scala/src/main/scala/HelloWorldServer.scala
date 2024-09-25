@@ -20,6 +20,11 @@ object HelloWorldServer {
         get {
           complete(s"Hello, $person!")
         }
+      } ~
+      pathSingleSlash {
+        get {
+          complete(s"Hello!")
+        }
       }
 
     // Start the server

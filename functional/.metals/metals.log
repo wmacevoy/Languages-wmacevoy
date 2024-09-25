@@ -142,3 +142,144 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2586f8f
 2024.09.06 14:07:18 INFO  time: compiled root in 5.02s
 Sep 06, 2024 2:15:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.09.09 14:09:56 INFO  Started: Metals version 1.3.5 in folders '/workspaces/languages-wmacevoy/functional' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@1fe99737]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@667ecacd]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1fe99737]
+2024.09.09 14:10:00 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.09 14:10:00 INFO  Attempting to connect to the build server...
+2024.09.09 14:10:00 INFO  Setting up current java home /usr/lib/jvm/msopenjdk-current in /home/vscode/.bloop/bloop.json
+Sep 09, 2024 2:10:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.09.09 14:10:02 INFO  no build target found for /workspaces/languages-wmacevoy/functional/hello-world-scala/src/main/scala/HelloWorldServer.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.09 14:10:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/languages-wmacevoy/functional/.metals/bsp.trace.json or /home/vscode/.cache/metals/bsp.trace.json
+2024.09.09 14:10:25 INFO  time: Connected to build server in 25s
+2024.09.09 14:10:25 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.09 14:10:26 INFO  time: Imported build in 0.17s
+2024.09.09 14:10:26 INFO  running doctor check
+2024.09.09 14:10:26 INFO  java targets: root, root-test
+2024.09.09 14:10:30 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.9.0-M2/akka-actor-typed_2.13-2.9.0-M2-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.6.0-M1/akka-http_2.13-10.6.0-M1-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.9.0-M2/akka-stream_2.13-2.9.0-M2-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.9.0-M2/akka-actor_2.13-2.9.0-M2-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.9.0-M2/akka-slf4j_2.13-2.9.0-M2-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.6.0-M1/akka-http-core_2.13-10.6.0-M1-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.9.0-M2/akka-protobuf-v3_2.13-2.9.0-M2-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0-sources.jar
+2024.09.09 14:10:41 WARN  unexpected dependency: /home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.6.0-M1/akka-parsing_2.13-10.6.0-M1-sources.jar
+2024.09.09 14:10:41 INFO  time: indexed workspace in 15s
+2024.09.09 14:10:42 INFO  compiling root (1 scala source)
+Sep 09, 2024 2:10:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+2024.09.09 14:10:48 INFO  time: compiled root in 6.02s
+Sep 09, 2024 2:11:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59
+Sep 09, 2024 2:11:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+Sep 09, 2024 2:11:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+Sep 09, 2024 2:20:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+Sep 09, 2024 2:20:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 145
+Sep 09, 2024 2:23:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 294
+Sep 09, 2024 2:23:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 295
+Sep 09, 2024 2:23:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 298
+Sep 09, 2024 2:25:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 342
+2024.09.09 14:25:43 INFO  compiling root (1 scala source)
+2024.09.09 14:25:43 INFO  time: compiled root in 0.62s
+Sep 09, 2024 2:30:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 434
+Sep 09, 2024 2:30:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 435
+2024.09.09 14:31:34 INFO  compiling root (1 scala source)
+2024.09.09 14:31:34 INFO  time: compiled root in 0.44s
+Sep 09, 2024 2:31:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 531
+2024.09.09 14:31:55 INFO  compiling root (1 scala source)
+2024.09.09 14:31:57 INFO  time: compiled root in 1.4s
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Sep 09, 2024 2:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 569
+Sep 09, 2024 2:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+Sep 09, 2024 2:38:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 624
+Sep 09, 2024 2:38:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 625
+Sep 09, 2024 2:38:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 648
+Sep 09, 2024 2:38:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 649
+Sep 09, 2024 2:38:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 650
+Sep 09, 2024 2:38:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 651
+Sep 09, 2024 2:38:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 652
+2024.09.09 16:11:01 INFO  Shutting down server
+2024.09.09 16:11:01 INFO  shutting down Metals
+2024.09.09 16:11:01 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:177)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy12.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:177)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:282)
+	at sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+	at sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:102)
+	at java.io.OutputStream.write(OutputStream.java:124)
+	at sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:79)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:139)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:110)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy12.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:177)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.09.09 16:11:01 INFO  Exiting server

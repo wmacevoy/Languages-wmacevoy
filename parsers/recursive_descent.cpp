@@ -212,7 +212,7 @@ class BinaryOpNode : public ASTNode
 {
 public:
     ASTNode *left;
-    TokenType op;
+    TokenType op; 
     ASTNode *right;
 
     BinaryOpNode(ASTNode *left, TokenType op, ASTNode *right)
